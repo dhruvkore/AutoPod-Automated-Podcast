@@ -19,5 +19,5 @@ class WordsAndPhrases:
             self.transitionWords.append(x.strip())
 
     def getTrasitionWord(self):
-        index = random.randint(0, len(self.transitionWords))
+        index = random.randint(0, len(self.transitionWords) - 1)
         return self.transitionWords[index]

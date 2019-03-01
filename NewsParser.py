@@ -34,3 +34,4 @@ class GoogleNews:
             self.headlines.append(news.title.text)
 
         return self.headlines
+
