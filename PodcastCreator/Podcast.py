@@ -1,4 +1,4 @@
-from WordsAndPhrases import WordsAndPhrases
+from TextToSpeech.WordsAndPhrases import WordsAndPhrases
 import datetime
 import random
 

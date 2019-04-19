@@ -1,9 +1,9 @@
 import datetime
 import os
 
-from NewsParser import NewsParser
-from Podcast import Podcast
-from TextToSpeech import TextToSpeech
+from PodcastSources.NewsParser import NewsParser
+from PodcastCreator.Podcast import Podcast
+from TextToSpeech.TextToSpeech import TextToSpeech
 
 if __name__ == '__main__':
 
